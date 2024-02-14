@@ -1,3 +1,5 @@
+package Ejercicio
+
 public class Circle { // Save as "Circle.java"
     // private instance variable, not accessible from outside this class
     private double radius;
