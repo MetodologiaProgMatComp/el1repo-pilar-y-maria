@@ -1,5 +1,5 @@
-import es.uah.matcomp.el1.Date;
-import es.uah.matcomp.el1.InvoiceItem;
+import es.uah.matcomp.el1.p1.Date;
+
 public class MainDate {
     public static void main(String[] args) {
     // Test constructor and toString()

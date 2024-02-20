@@ -1,4 +1,4 @@
-import es.uah.matcomp.el1.Circle;
+import es.uah.matcomp.el1.p1.Circle;
 
 public class MainCircle {
     public static void main(String[] args) {

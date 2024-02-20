@@ -1,4 +1,4 @@
-import es.uah.matcomp.el1.Employee;
+import es.uah.matcomp.el1.p1.Employee;
 public class MainEmployee {
     public static void main(String[] args) {
         // Test constructor and toString()

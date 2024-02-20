@@ -1,4 +1,4 @@
-import es.uah.matcomp.el1.Rectangle;
+import es.uah.matcomp.el1.p1.Rectangle;
 public class MainRectangle {
     public static void main(String[] args) {
         // Test constructors and toString()

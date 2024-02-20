@@ -1,4 +1,4 @@
-import es.uah.matcomp.el1.InvoiceItem;
+import es.uah.matcomp.el1.p1.InvoiceItem;
 public class MainInvoiceItem {
     public static void main(String[] args) {
     // Test constructor and toString()

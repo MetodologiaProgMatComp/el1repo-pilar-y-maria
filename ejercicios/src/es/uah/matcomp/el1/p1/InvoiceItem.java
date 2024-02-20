@@ -1,4 +1,4 @@
-package es.uah.matcomp.el1;
+package es.uah.matcomp.el1.p1;
 
 public class InvoiceItem {
     private String id;

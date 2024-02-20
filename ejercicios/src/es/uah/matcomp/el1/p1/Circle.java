@@ -1,4 +1,4 @@
-package es.uah.matcomp.el1;
+package es.uah.matcomp.el1.p1;
 
 public class Circle {
     private double radius=1.0;  //ATRIBUTOS
