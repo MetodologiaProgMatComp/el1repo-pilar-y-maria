@@ -1,6 +1,6 @@
 import es.uah.matcomp.el1.Circle;
 
-public class Main {
+public class MainCircle {
     public static void main(String[] args) {
         // Test Constructors and toString()
         Circle c1 = new Circle(1.1);

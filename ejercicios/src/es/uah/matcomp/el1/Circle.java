@@ -6,7 +6,6 @@ public class Circle {
 
     //CONSTRUCTORES
     public Circle(){
-
     }
 
     public Circle(double radio){
@@ -23,12 +22,11 @@ public class Circle {
         this.radius = radius;
     }
     public double getArea(){
-        return radius*2*Math.PI;
-
+        return Math.pow(radius,2)*Math.PI; //Potencias
     }
 
     public double getCircumference(){
-        return radius*3;
+        return 2*radius*Math.PI;
     }
 
     public String toString(){

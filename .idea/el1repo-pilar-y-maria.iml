@@ -9,7 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Ejemplo/Test/Resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/Ejemplo/Test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Ejemplo/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Ejercicio 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ejercicios/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
