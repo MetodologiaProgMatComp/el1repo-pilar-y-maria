@@ -1,9 +1,9 @@
 
 
-import es.uah.matcomp.el1.circulo.Circle;
+import es.uah.matcomp.el1ejemplos.Circle;
 
 
-public class Main { // Save as "TestCircle.java"
+public class MainEjemplo { // Save as "TestCircle.java"
 
     static public void main(String[] s) {
         Circle c1 = new Circle();

@@ -1,6 +1,8 @@
-package es.uah.matcomp.el1.circulo;
+package es.uah.matcomp.el1;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import es.uah.matcomp.el1ejemplos.Circle;
 import org.junit.jupiter.api.Test;
 
 /**

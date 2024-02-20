@@ -1,4 +1,4 @@
-package es.uah.matcomp.el1.circulo;
+package es.uah.matcomp.el1ejemplos;
 
 public class Circle { // Save as "Circle.java"
     // private instance variables, not accessible from outside this class
