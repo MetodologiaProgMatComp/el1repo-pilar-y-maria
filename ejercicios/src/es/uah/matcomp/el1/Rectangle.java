@@ -1,8 +1,8 @@
 package es.uah.matcomp.el1;
 
 public class Rectangle {
-    public float length=1.0f;
-    public float width=1.0f;
+    private float length=1.0f;
+    private float width=1.0f;
 
     //CONSTRUCTORES
     public Rectangle(){
@@ -13,13 +13,13 @@ public class Rectangle {
     }
     //METODOS
     public float getLength() {
-        return length;
+        return this.length;
     }
     public void setLength (float length) {
         this.length = length;
     }
     public float getWidth() {
-        return width;
+        return this.width;
     }
     public void setWidth(float width) {
         this.width = width;
