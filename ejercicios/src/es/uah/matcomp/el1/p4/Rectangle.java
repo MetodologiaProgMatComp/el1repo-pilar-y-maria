@@ -1,4 +1,5 @@
-package es.uah.matcomp.el1.p3;
+package es.uah.matcomp.el1.p4;
+
 import es.uah.matcomp.el1.p3.Shape;
 
 public class Rectangle extends Shape {
@@ -30,9 +31,11 @@ public class Rectangle extends Shape {
     public void setWidth(double width) {
         this.width = width;
     }
+    @Override
     public double getArea(){
         return length*width;
     }
+    @Override
     public double getPerimeter(){
         return 2*length+2*width;
     }
@@ -42,3 +45,4 @@ public class Rectangle extends Shape {
     }
 
 }
+
