@@ -42,8 +42,7 @@ public class Book {
     public void setQty(int qty){
         this.qty=qty;
     }
-    public String getAuthorName(){
-        return this.author.getName();
+    public String getAuthorName(){return this.author.getName();
     }
     public String toString(){
         return "Book[isbn="+isbn+",name="+name+",Author[name="+author.getName()+",email="+author.getEmail()+"],price="+price+",qty="+qty+"]";
