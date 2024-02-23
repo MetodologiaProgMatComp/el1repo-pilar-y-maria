@@ -1,7 +1,7 @@
 package es.uah.matcomp.el1.p4;
 
 public class Circle2 implements GeometricObject{
-    private double radius;
+    protected double radius;
     public Circle2 (double radius){
         this.radius=radius;
     }

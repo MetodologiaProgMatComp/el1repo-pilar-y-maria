@@ -9,6 +9,6 @@ public class MainMovableP {
         s1.moveDown();
         s1.moveRight();
         s1.moveLeft();
-        System.out.println(s1);
+        System.out.println(s1);  //No calcula bien las coordenadas
     }
 }
