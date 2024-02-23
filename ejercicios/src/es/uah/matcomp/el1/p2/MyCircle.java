@@ -35,6 +35,7 @@ public class MyCircle {
         int[] center1= this.getCenterXY();
         int[] center2= another.getCenterXY();
         return Math.sqrt(Math.pow(center1[0]-center2[0], 2)+Math.pow(center1[1]-center2[1],2));
+
     }
 
 
