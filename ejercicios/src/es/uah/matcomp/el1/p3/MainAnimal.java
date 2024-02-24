@@ -18,3 +18,5 @@ public class MainAnimal {
 
     }
 }
+//No se puede hacer una llamada directa al método greets() en un tipo de objeto
+// Animal porque esta clase no tiene el método greets() definido en su interfaz
