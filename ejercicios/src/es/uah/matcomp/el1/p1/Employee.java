@@ -20,7 +20,11 @@ public class Employee {
     public int getSalary(){return this.salary; }
     public void setSalary(int salary){this.salary=salary; }
     public int getAnnualSalary(){return salary*12; }
-    public int raiseSalary(int percent){return salary*percent; }
-    public String toString(){return "Employee[id"+id+"name="+firstName+lastName+",salary="+salary+"]"; }
+    public int raiseSalary(int percent) {
+        double increaseFactor = 1 + percent / 100.0;
+        double increasedSalary = salary * increaseFactor;
+        return (int) increasedSalary;
+    }
+    public String toString(){return "Employee[id="+id+"name="+firstName+lastName+",salary="+salary+"]"; }
 
 }
