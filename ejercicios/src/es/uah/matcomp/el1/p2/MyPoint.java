@@ -29,9 +29,9 @@ public class MyPoint {
         this.x=x;
         this.y=y;
     }
-    public String toString(int x, int y){
-        return "("+x+","+y+")";
-    }
+    @Override
+    public String toString() {
+        return "(" + x + "," + y + ")";}
     public double distance( int x, int y){   //Distance from this point to the given point at (x,y)
         int dx= this.x-x;
         int dy= this.y-y;
@@ -42,7 +42,7 @@ public class MyPoint {
         int dy= this.y-another.getY();
         return Math.sqrt(Math.pow(dx,2)+Math.pow(dy,2));
     }
-    public double distance(){
-        return Math.sqrt(x*x+y*y);
+    public double distance() {
+        return Math.sqrt(x * x + y * y);
     }
 }
