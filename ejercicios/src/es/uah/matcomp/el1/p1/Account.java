@@ -20,13 +20,15 @@ public class Account {
     public String getName(){return this.name;}
     public int getBalance(){return this.balance;}
     public int credit(int amount){this.balance+= amount; return this.balance;}
-    public int debit (int amount){
-        if (amount <= this.balance){
+    public int debit(int amount) {
+        if (amount <= this.balance) {
             this.balance -= amount;
-        }   else {
-                System.out.println("Amount exceeded balance");
+        } else {
+            System.out.println("Amount exceeded balance");
         }
-        return this.balance; }
+        return this.balance; // Devolver el saldo actualizado después de la operación de débito
+    }
+
     public int transferTo (Account destinationAccount, int amount) {
         if (amount <= this.balance) {
             this.balance -= amount;
