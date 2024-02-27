@@ -28,7 +28,7 @@ public class Rectangle {
         return length*width;
     }
     public double getPerimeter(){
-        return 2*length+2*width;
+        return 2*(length+width);
     }
     public String toString(){
         return "Rectangle[length="+this.length+", width="+this.width+"]";

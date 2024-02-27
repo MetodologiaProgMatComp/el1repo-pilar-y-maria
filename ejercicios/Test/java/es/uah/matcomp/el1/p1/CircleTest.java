@@ -16,7 +16,7 @@ class CircleTest {
     void setRadius(){
         Circle c1= new Circle(1.0d);
         c1.setRadius(2.0d);
-        assertEquals(2.0d,c1.getRadius(), "Fallo: los radios no coinciden en el set");
+        assertEquals(2.0d,c1.getRadius(), "Fallo: los radios no coinciden");
     }
     @org.junit.jupiter.api.Test
     void getArea(){
@@ -29,7 +29,7 @@ class CircleTest {
         assertEquals(2*Math.PI,c1.getCircumference(), "Fallo: el perimetro no coincide");
     }
     @org.junit.jupiter.api.Test
-    void testtoString(){
+    void testToString(){
         Circle c1= new Circle(1.0d);
         assertEquals("Circle[radius="+1.0d+"]",c1.toString(), "Fallo: no coincide el toString");
     }
