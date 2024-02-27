@@ -1,36 +1,38 @@
 package es.uah.matcomp.el1.p1;
 
-import org.junit.jupiter.api.Test;
+import es.uah.matcomp.el1.p1.Circle;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CircleTest {
-
-    @Test
-    void getRadius() {
-        Circle c1 = new Circle();
-
+    @org.junit.jupiter.api.Test
+    void getRadius(){
+        Circle c1= new Circle();
         assertEquals(1.0d,c1.getRadius(),"Fallo: Los radios no coinciden en el constructor por defecto");
-
-
-        Circle c2 = new Circle(7.0d);
-
-        assertEquals(7.0d,c2.getRadius(),"Fallo: los radios no coinciden en el constructor especifico de radio");
+        Circle c2= new Circle(2.0d);
+        assertEquals(2.0d,c2.getRadius(),"Fallo: los radios no coinciden en el constructor especifico de radio");
+    }
+    @org.junit.jupiter.api.Test
+    void setRadius(){
+        Circle c1= new Circle(1.0d);
+        c1.setRadius(2.0d);
+        assertEquals(2.0d,c1.getRadius(), "Fallo: los radios no coinciden en el set");
+    }
+    @org.junit.jupiter.api.Test
+    void getArea(){
+        Circle c1= new Circle(1.0d);
+        assertEquals(Math.PI,c1.getArea(), "Fallo: el area no coincide");
+    }
+    @org.junit.jupiter.api.Test
+    void getCircumference(){
+        Circle c1= new Circle(1.0d);
+        assertEquals(2*Math.PI,c1.getCircumference(), "Fallo: el perimetro no coincide");
+    }
+    @org.junit.jupiter.api.Test
+    void testtoString(){
+        Circle c1= new Circle(1.0d);
+        assertEquals("Circle[radius="+1.0d+"]",c1.toString(), "Fallo: no coincide el toString");
     }
 
-    @Test
-    void setRadius() {
-    }
 
-    @Test
-    void getArea() {
-    }
-
-    @Test
-    void getCircumference() {
-    }
-
-    @Test
-    void testToString() {
-    }
 }
