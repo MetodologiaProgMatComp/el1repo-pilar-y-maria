@@ -11,12 +11,12 @@ public class MainMyCircleMyPoint {
         MyCircle circle2 = new MyCircle(center, radius);
 
         //Mostrar información sobre los círculos creados
-        System.out.println("Cículo 1: "+ circle1);
-        System.out.println("Cículo 2: "+ circle2);
+        System.out.println("Círculo 1: "+ circle1);
+        System.out.println("Círculo 2: "+ circle2);
 
         //Calcular y mostrar la distancia entre los centros de los círculos
         double distanceBetweenCenters = circle1.distance(circle2);
-        System.out.println("Distancia entre los centros de los circulos: "+ distanceBetweenCenters);
+        System.out.println("Distancia entre los centros de los círculos: "+ distanceBetweenCenters);
 
     }
 }
