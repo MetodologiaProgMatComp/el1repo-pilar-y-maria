@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AnimalTest {
+class MammalTest {
 
     @Test
     void testToString() {
-        Mammal mammal = new Mammal("Animal1");
-        assertEquals("Mammal [Animal [name=Animal1]]", mammal.toString());
+        Mammal mammal = new Mammal("Mammal1");
+        assertEquals("Mammal [Animal [name=Mammal1]]", mammal.toString());
     }
 }

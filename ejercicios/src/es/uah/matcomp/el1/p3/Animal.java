@@ -5,6 +5,7 @@ public abstract class Animal {
     public Animal (String name){
         this.name=name;
     }
+    @Override
     public String toString() {
         return "Animal: animal [name=" + name + "]";
     }
