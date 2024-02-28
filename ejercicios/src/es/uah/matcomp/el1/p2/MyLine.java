@@ -70,6 +70,6 @@ public class MyLine {
         return Math.atan2(yDiff, xDiff);
     }
     public String toString(){
-        return "MyLine[begin=" + begin.toString()+ ","+end.toString()+")";
+        return "MyLine[begin=" + begin.toString()+ ","+end.toString()+"]";
     }
 }
