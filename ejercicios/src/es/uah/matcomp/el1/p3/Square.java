@@ -20,11 +20,11 @@ public class Square extends Rectangle{
     }
     @Override
     public void setWidth(double side){
-        setWidth(side);
+        super.setWidth(side);
     }
     @Override
     public void setLength(double side){
-        setLength(side);
+        super.setLength(side);
     }
     @Override
     public String toString(){

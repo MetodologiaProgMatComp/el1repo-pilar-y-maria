@@ -12,6 +12,8 @@ class CircleTest {
         assertEquals(1.0d,c1.getRadius(),"Fallo: los radios no coinciden en el constructor ");
         Circle c2=new Circle(2.0d,"red",true);
         assertEquals(2.0d,c2.getRadius(),"Fallo: los radios no coinciden en el constructor");
+        Circle c3=new Circle(2.0d);
+        assertEquals(2.0d,c3.getRadius(),"Fallo: los radios no coinciden en el constructor");
 
     }
 
