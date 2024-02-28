@@ -32,6 +32,6 @@ public class Student extends Person{
     }
     @Override
     public String toString(){
-        return "Student[Person[name="+getName()+"adress"+getAdress()+"], program="+program+",year="+year+",fee="+fee+"]";
+        return "Student[Person[name="+getName()+",address="+getAdress()+"], program="+program+",year="+year+",fee="+fee+"]";
     }
 }
