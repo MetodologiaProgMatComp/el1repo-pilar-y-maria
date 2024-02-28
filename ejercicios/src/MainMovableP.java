@@ -4,11 +4,10 @@ import es.uah.matcomp.el1.p4.MovablePoints;
 public class MainMovableP {
     public static void main(String[]args){
         Movable s1 = new MovablePoints(1,2,3,4);
-        System.out.println(s1);
-        s1.moveUp();     //No devuelven
-        s1.moveDown();
+        System.out.println("Posicion antes:" +s1.toString());
+        s1.moveUp();
         s1.moveRight();
-        s1.moveLeft();
-        System.out.println(s1);  //No calcula bien las coordenadas
+        System.out.println("Posicion despues:"+ s1.toString());
+
     }
 }
