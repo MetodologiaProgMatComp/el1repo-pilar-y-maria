@@ -1,4 +1,7 @@
-package es.uah.matcomp.el1.p3;
+import es.uah.matcomp.el1.p3.Cat;
+import es.uah.matcomp.el1.p3.Dog;
+import es.uah.matcomp.el1.p3.Mammal;
+
 public class MainAnimal {
     public static void main(String[] args) {
         //Crear las instancias de cada clase

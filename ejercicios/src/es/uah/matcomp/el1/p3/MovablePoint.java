@@ -32,11 +32,13 @@ public class MovablePoint extends Point {
     public String toString(){
         return super.toString()+", Speed: (" + xSpeed + ", " + ySpeed + ")"; }
     @Override
-    public MovablePoint move(){
+    public MovablePoint move() {
         setX(getX() + xSpeed);
         setY(getY() + ySpeed);
         return this;
     }
+
+
 
 
 }
