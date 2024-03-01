@@ -9,7 +9,7 @@ public class Rectangle2 implements GeometricObject{
         this.length=length;
     }
     public String toString(){
-        return "Rectangle[width="+width+",lenth="+length+"]";
+        return "Rectangle[width="+width+",length="+length+"]";
     }
     @Override
     public double getArea(){

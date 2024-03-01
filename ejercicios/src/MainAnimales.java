@@ -1,4 +1,8 @@
-package es.uah.matcomp.el1.p4;
+import es.uah.matcomp.el1.p4.Animal;
+import es.uah.matcomp.el1.p4.BigDog;
+import es.uah.matcomp.el1.p4.Cat;
+import es.uah.matcomp.el1.p4.Dog;
+
 public class MainAnimales {
     public static void main(String[] args){
         Animal cat = new Cat("Pelusa");
