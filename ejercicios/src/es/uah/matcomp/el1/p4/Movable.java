@@ -5,4 +5,5 @@ public interface Movable {
     abstract void moveDown();
     abstract void moveRight();
     abstract void moveLeft();
+
 }

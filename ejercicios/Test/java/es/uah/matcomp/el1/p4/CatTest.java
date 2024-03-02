@@ -8,7 +8,7 @@ class CatTest {
 
     @Test
     void greets() {
-        Cat cat = new Cat("Pelusa");
-        assertDoesNotThrow(cat::greets);
+        Cat a1 = new Cat("Pelusa");
+        a1.greets();
     }
 }

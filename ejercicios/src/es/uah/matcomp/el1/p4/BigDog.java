@@ -4,15 +4,18 @@ public class BigDog extends Dog {
     public BigDog(String name){
         super(name);
     }
+
     @Override
-    public void greets(){
-        System.out.println("Wooow");
+    public String greets(){
+        return "Wooow";
     }
+
     @Override
-    public void greets(Animal another){
-        System.out.println("Woooooow");
+    public String greets(Dog another){
+        return "Woooooow";
     }
-    public void greets(BigDog another){
-        System.out.println("Woooooooow");
+
+    public String greets(BigDog another){
+        return "Woooooooow";
     }
 }

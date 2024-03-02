@@ -12,4 +12,16 @@ public class MovableCircle extends MovablePoints implements Movable {
     public String toString() {
         return "(x,y)=" + x + "," + y + ", speed=(" + xSpeed + "," + ySpeed + "), radius=" + radius;
     }
+    public void moveUp(){
+        y-=ySpeed;
+    }
+    public void moveDown(){
+        y+=ySpeed;
+    }
+    public void moveLeft(){
+        x-=xSpeed;
+    }
+    public void moveRight(){
+        x+=xSpeed;
+    }
 }

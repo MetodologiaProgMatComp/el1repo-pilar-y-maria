@@ -1,17 +1,16 @@
 package es.uah.matcomp.el1.p4;
 
 public class Dog extends Animal {
-    public Dog(String name){
+    public Dog(String name) {
         super(name);
     }
+
     @Override
-    public void greets(){
-        System.out.println("Woof");
+    public String greets() {
+        return "Woof";
     }
-    public void greets(Animal another){
-        System.out.println("Woooof");
-    }
-    public void greets(Dog antoher){
-        System.out.println("Woooof");
+
+    public String greets(Dog another) {
+        return "Woooof";
     }
 }

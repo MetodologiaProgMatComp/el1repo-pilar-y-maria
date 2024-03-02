@@ -8,18 +8,13 @@ class DogTest {
 
     @Test
     void greets() {
-        assertDoesNotThrow(() -> {
-            Dog dog = new Dog("Fido");
-            dog.greets();
-        });
+        Dog a2 = new Dog( "Piñon");
+        a2.greets();
     }
 
     @Test
     void testGreets() {
-        assertDoesNotThrow(() -> {
-            Dog dog = new Dog("Buddy");
-            Animal another = new Dog("Max");
-            dog.greets(another);
-        });
+        Dog a3 = new Dog("Fuet");
+        a3.greets();
     }
 }

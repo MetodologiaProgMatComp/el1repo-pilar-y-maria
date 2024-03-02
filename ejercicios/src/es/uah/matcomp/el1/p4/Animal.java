@@ -1,9 +1,15 @@
 package es.uah.matcomp.el1.p4;
 
 public abstract class Animal {
-    String name;
+    private String name;
+
     public Animal(String name){
-        this.name=name;
+        this.name = name;
     }
-    public abstract void greets();
+
+    public String getName() {
+        return name;
+    }
+
+    public abstract String greets();
 }
