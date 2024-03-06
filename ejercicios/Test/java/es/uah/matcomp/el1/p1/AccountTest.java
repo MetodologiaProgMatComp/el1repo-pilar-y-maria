@@ -34,18 +34,23 @@ class AccountTest {
     @Test
     void debit() {
         Account account = new Account("A101", "Tan Ah Teck", 88);
+        Account account2 = new Account("A101", "Tan Ah Teck", 200);
         account.debit(50);
+        account2.debit(300);
         assertEquals(38, account.getBalance());
+        assertEquals(200, account2.getBalance());
     }
 
     @Test
     void transferTo() {
         Account sourceAccount = new Account("A101", "Tan Ah Teck", 200);
         Account destinationAccount = new Account("A102", "Kumar");
+        Account sourceAccount2 = new Account("A101", "Tan Ah Teck", 200);
         sourceAccount.transferTo(destinationAccount, 100);
+        sourceAccount2.transferTo(destinationAccount, 300);
         assertEquals(100, sourceAccount.getBalance());
+        assertEquals(200, sourceAccount2.getBalance());
         assertEquals(100, destinationAccount.getBalance());
-
     }
 
     @Test
