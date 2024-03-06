@@ -39,6 +39,6 @@ class CircleTest {
     @Test
     void testToString() {
         Circle c1=new Circle(2.0d,"red",true);
-        assertEquals("Circle[Shape[color="+"red"+",filled="+true+"radius="+2.0d+"]",c1.toString(),"Fallo: los toString no coinciden ");
+        assertEquals("Circle[Shape[color="+"red"+",filled="+true+"],radius="+2.0d+"]",c1.toString(),"Fallo: los toString no coinciden ");
     }
 }
