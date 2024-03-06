@@ -7,6 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class AnimalTest {
 
     @Test
+    void getName(){
+        Animal d1 = new Dog( "Coco");
+        assertEquals("Coco",d1.getName());
+    }
+    @Test
     void greets() {
         Animal cat = new Cat("Pelusa");
         Animal dog = new Dog("Piñón");

@@ -9,20 +9,20 @@ class BigDogTest {
     @Test
     void greets() {
         BigDog bigDog = new BigDog("Fuet");
-        //assertDoesNotThrow(bigDog::greets);
+        assertEquals("Wooow",bigDog.greets());
     }
 
     @Test
     void testGreets() {
-        BigDog bigDog1 = new BigDog("Fuet");
+        Dog Dog3 = new Dog("Fuet");
         BigDog bigDog2 = new BigDog("Rex");
-        assertDoesNotThrow(() -> bigDog1.greets(bigDog2));
+        assertEquals("Woooooow", bigDog2.greets(Dog3));
     }
 
     @Test
     void testGreets1() {
         BigDog bigDog1 = new BigDog("Fuet");
-        BigDog bigDog2 = new BigDog("Rex");
-        assertDoesNotThrow(() -> bigDog1.greets(bigDog2));
+        BigDog bigDog4 = new BigDog("Rex");
+        assertEquals("Woooooooow", bigDog4.greets(bigDog1));
     }
 }
