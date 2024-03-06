@@ -34,7 +34,7 @@ public class MyTriangle {
             return "Equilatero";
         }
         if (lado1==lado2 || lado2==lado3 || lado1==lado3){
-            return "Isososceles";
+            return "Isosceles";
         }
         else{
             return "Escaleno";

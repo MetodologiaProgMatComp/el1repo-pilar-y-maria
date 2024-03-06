@@ -45,6 +45,7 @@ class AccountTest {
         sourceAccount.transferTo(destinationAccount, 100);
         assertEquals(100, sourceAccount.getBalance());
         assertEquals(100, destinationAccount.getBalance());
+
     }
 
     @Test

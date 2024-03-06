@@ -34,5 +34,17 @@ class MyTriangleTest {
         MyPoint p3 = new MyPoint(0, 4);
         MyTriangle t1 = new MyTriangle(p1, p2, p3);
         assertEquals("Escaleno", t1.getType(),"Fallo: el tipo no coincide");
+
+        MyPoint p4 = new MyPoint(0, 0);
+        MyPoint p5 = new MyPoint(3, 0);
+        MyPoint p6 = new MyPoint(3, 3);
+        MyTriangle t2 = new MyTriangle(p4, p5, p6);
+        assertEquals("Isosceles", t2.getType(),"Fallo: el tipo no coincide");
+
+        MyPoint p7 = new MyPoint(0, 0);  //No hay triangulos equilateros con coordenadas enteras
+        MyPoint p8 = new MyPoint(0, 3);
+        MyPoint p9 = new MyPoint(3, 3);
+        MyTriangle t3 = new MyTriangle(p7, p8, p9);
+        //assertEquals("Equilatero", t3.getType(),"Fallo: el tipo no coincide");
     }
 }

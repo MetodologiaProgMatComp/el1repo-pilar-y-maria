@@ -40,7 +40,7 @@ public class Account {
             balance-=amount;
         }
         else{
-            System.out.println("Amount withdrawn exceeds the current balance!");
+            System.out.println("Amount withdrawn exceeds the balance!");
         }
         return balance;
     }

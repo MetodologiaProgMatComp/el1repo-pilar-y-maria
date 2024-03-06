@@ -39,7 +39,7 @@ public class Circle extends Shape {
 
     @Override
     public String toString(){
-        return "Circle[Shape[color="+getColor()+",filled="+isFilled()+"radius="+this.radius+"]";
+        return "Circle[Shape[color="+getColor()+",filled="+isFilled()+",radius="+this.radius+"]";
     }
 
 }

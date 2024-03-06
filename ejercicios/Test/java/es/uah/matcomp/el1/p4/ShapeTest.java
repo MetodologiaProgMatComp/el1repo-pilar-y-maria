@@ -47,6 +47,6 @@ class ShapeTest {
     @Test
     void testToString() {
         Shape s1= new Circle(1.0d,"red",false);
-        assertEquals("Shape[color="+"red"+",filled="+false+"]",s1.toString(),"Fallo: toString no coincide");
+        assertEquals("Circle[Shape[color=red,filled="+false+",radius="+1.0+"]",s1.toString(),"Fallo: toString no coincide");
     }
 }

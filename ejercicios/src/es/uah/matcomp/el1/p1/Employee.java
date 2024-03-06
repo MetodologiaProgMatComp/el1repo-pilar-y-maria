@@ -25,6 +25,6 @@ public class Employee {
         double increasedSalary = salary * increaseFactor;
         return (int) increasedSalary;
     }
-    public String toString(){return "Employee[id="+id+"name="+firstName+lastName+",salary="+salary+"]"; }
+    public String toString(){return "Employee[id="+id+",name="+firstName+" "+lastName+",salary="+salary+"]"; }
 
 }

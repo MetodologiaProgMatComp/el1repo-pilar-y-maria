@@ -60,5 +60,11 @@ class DateTest {
     void testToString() {
         Date d1 = new Date(1, 2, 2014);
         assertEquals("01/02/2014",d1.toString(),"Fallo:los toString no coinciden");
+        Date d2 = new Date(1, 10, 2014);
+        assertEquals("01/10/2014",d2.toString(),"Fallo:los toString no coinciden");
+        Date d3 = new Date(10, 2, 2014);
+        assertEquals("10/02/2014",d3.toString(),"Fallo:los toString no coinciden");
+        Date d4 = new Date(10, 10, 2014);
+        assertEquals("10/10/2014",d4.toString(),"Fallo:los toString no coinciden");
     }
 }

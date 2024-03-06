@@ -64,5 +64,8 @@ class AccountTest {
         Customer2 c1 = new Customer2(5555, "Alfonso", 'm');
         Account a1 = new Account(2222, c1, 8.8d);
         assertEquals(8.7d,a1.withdraw(0.1d),0.1d,"Fallo: los withdraw no coinciden");
+
+        Account a2 = new Account(2222, c1, 0.1d);
+        assertEquals(0.1d,a2.withdraw(8.0d),0.1d,"Fallo: los withdraw no coinciden");
     }
 }
