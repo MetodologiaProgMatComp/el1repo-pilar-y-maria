@@ -17,7 +17,6 @@ public class MovablePoint extends Point {
     }
 
     public MovablePoint(){
-
     }
     public float getXSpeed(){return this.xSpeed; }
     public void setXSpeed(float xSpeed){this.xSpeed=xSpeed; }

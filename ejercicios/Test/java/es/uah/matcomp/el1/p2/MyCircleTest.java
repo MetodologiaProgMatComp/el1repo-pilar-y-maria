@@ -11,6 +11,12 @@ class MyCircleTest {
         MyPoint center = new MyPoint(0,0);
         MyCircle circle = new MyCircle(center, 5);
         assertEquals(5, circle.getRadius());
+
+        MyCircle c1 = new MyCircle();
+        assertEquals(1, c1.getRadius());
+
+        MyCircle c2 = new MyCircle(0,0,1);
+        assertEquals(1, c2.getRadius());
     }
 
     @Test
