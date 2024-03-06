@@ -16,7 +16,7 @@ public class Employee {
     public int getId(){return this.id; }
     public String getFirstName(){return this.firstName; }
     public String getLastName(){return this.lastName; }
-    public String getName(){return "firstName lastname";}
+    public String getName(){return this.firstName+" "+this.lastName;}
     public int getSalary(){return this.salary; }
     public void setSalary(int salary){this.salary=salary; }
     public int getAnnualSalary(){return salary*12; }
