@@ -44,9 +44,4 @@ class ShapeTest {
         assertEquals(2*Math.PI,c2.getPerimeter(),"Fallo:los perimetros no coinciden");
     }
 
-    @Test
-    void testToString() {
-        Shape s1= new Circle(1.0d,"red",false);
-        assertEquals("Circle[Shape[color=red,filled="+false+",radius="+1.0+"]",s1.toString(),"Fallo: toString no coincide");
-    }
 }

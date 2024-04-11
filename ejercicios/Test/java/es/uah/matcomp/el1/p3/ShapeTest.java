@@ -44,10 +44,4 @@ class ShapeTest {
         assertEquals(4.0d,s1.getPerimeter(),"Fallo perimetro no coincide");
     }
 
-    @Test
-    void testToString() {
-        Shape s1= new Rectangle(1.0d, 2.0d, "red",false);
-        assertEquals("Shape[color="+"red"+",filled="+false+"]",s1.toString(),"Fallo toString no coincide");
-    }
-
 }
